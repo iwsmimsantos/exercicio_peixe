@@ -12,8 +12,12 @@ var config = {
 
 var game = new Phaser.Game(config);
 
-function preload() { }
+function preload() {
+    this.load.image('mar', 'assets/bg_azul-escuro.png');
+}
 
-function create() { }
+function create() { 
+    this.add.image(400, 300, 'mar');
+}
 
 function update() { }

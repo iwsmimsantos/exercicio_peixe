@@ -1,7 +1,7 @@
 var config = {
     type: Phaser.AUTO,
-    width: 1250, 
-    height: 565,
+    width: 800, 
+    height: 600,
 
     scene: {
         preload: preload,
@@ -17,7 +17,7 @@ function preload() {
 }
 
 function create() { 
-    this.add.image(625, 283, 'mar');
+    this.add.image(400, 300, 'mar');
 }
 
 function update() { }

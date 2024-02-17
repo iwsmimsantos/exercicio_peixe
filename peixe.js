@@ -23,6 +23,9 @@ function preload() {
 
     //carregar peixe
     this.load.image('peixe', 'assets/peixes/peixinho_laranja.png')
+
+    //carregar bolhas (imagem extra)
+    this.load.image('bolhas', 'assets/bolhas.avif');
 }
 
 function create() { 
@@ -37,6 +40,9 @@ function create() {
 
     //transformando a variável
     peixinho.setOrigin(0.5, 0.5).setFlip(true, false);
+
+    //adicionar bolhas na tela (imagem extra)
+    this.add.image(100, 450, 'bolhas').setScale(0.3);
 }
 
 function update() { 

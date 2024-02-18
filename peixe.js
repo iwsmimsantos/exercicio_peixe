@@ -1,15 +1,9 @@
-    // conjunto de configurações básicas do nosso jogo. 
 var config = {
-
-    // Phaser.AUTO -- Escolha automática (pelo navegador) do tipo de renderizador da página web
     type: Phaser.AUTO,
-    
-    //indicam a largura e altura da tela do nosso jogo respectivamente
     width: 800, 
     height: 600,
 
     scene: {
-
         preload: preload,
         create: create,
         update: update
